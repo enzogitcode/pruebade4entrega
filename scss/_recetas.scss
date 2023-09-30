@@ -1,0 +1,65 @@
+h5 {
+  justify-content: right;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(207, 152, 85, );
+  border: dotted 1px;
+}
+
+.cajaDeRecetasCompletas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexReceta {
+  margin: 5px;
+  background-color: rgba(207, 152, 85, );
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: grid;
+  grid-template-areas: "recetaTitulo recetaTitulo" "recetaAviso recetaAviso" "ingredientes flexReceta__img" "preparacion preparacion";
+}
+
+.form-check ul li {
+  @include listas;
+}
+
+.flexReceta__titulo {
+  grid-area: recetaTitulo;
+  font-size: 30px;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+.flexReceta__aviso {
+  grid-area: recetaAviso;
+  font-size: 30px;
+  font-family: mexicana;
+}
+
+.flexReceta__ingredientes {
+  grid-area: ingredientes;
+}
+
+.flexReceta__preparacion {
+  grid-area: preparacion;
+}
+
+.flexReceta__img {
+  grid-area: flexReceta__img;
+  display: flex;
+  justify-content: center;
+  img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+
+
+  }
+}
+
+.form-control:focus {
+  box-shadow: 1px 4px rgb(13, 189, 7);
+}

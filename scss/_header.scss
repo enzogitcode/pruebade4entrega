@@ -1,0 +1,38 @@
+header nav {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 4px;
+
+    li {
+        padding: 5px;
+        display: inline-flex;
+        margin-top: 10px;
+        justify-content: center;
+        background-color: $color-rojo;
+        border-radius: 50px;
+
+
+
+        a {
+            @include fuenteriffic;
+            @include listas;
+            padding: 5px;
+            color: $letrablanca;
+
+        }
+    }
+}
+
+.cajaTitulo {
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+h1 {
+    background-color: $color-rojo;
+    color: rgb(240, 248, 255);
+    border-radius: 50px;
+
+}
+h2 {background-color: bisque;}
+h3 {@extend h2}

@@ -1,0 +1,18 @@
+.mainContactos {
+  justify-content: center;
+}
+.form-control:focus {
+  box-shadow: 1px 5px $color-rojo;}
+
+.botonForm {
+  background-color: $color-rojo2;
+
+  &:hover {
+    box-shadow: 4px 1px 0 #000000;
+    background-color: $color-rojo2;
+    
+  }
+}
+
+.quienesSomos {
+p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}}

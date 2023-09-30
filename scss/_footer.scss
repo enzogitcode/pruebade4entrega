@@ -1,0 +1,32 @@
+footer {
+  background-color: rgb(0,0,0);
+  text-align: center;
+  border-radius: 25px;
+  @include aljust;
+  font-family: rifficFreeBold;
+  color: aliceblue;
+  
+  p {
+    font-size: 30px;
+    background-color: $color-rojo;
+    border-radius: 50px;
+    margin-bottom: 0px;
+  }
+}
+
+footer nav li {
+  @include listas;
+  display: inline-flex;  margin: 20px;
+}
+
+.socialLink nav {
+  li a {
+    @include listas;
+    color: aliceblue;
+  }
+
+  ul li svg {
+    width: 50px;
+    height: 50px;
+  }
+}

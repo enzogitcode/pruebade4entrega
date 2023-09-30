@@ -1,0 +1,24 @@
+@font-face {
+    font-family: RifficFreeBold;
+    src: url(../fonts/RifficFree-Bold.ttf);
+}
+
+@mixin fuenteriffic {
+    font-family: rifficFreeBold;
+}
+
+@mixin listas {
+    list-style: none;
+    text-decoration: none;
+}
+
+@mixin aljust {
+    justify-content: center;
+    align-items: center;
+}
+$color-rojo: rgb(243, 6, 6, 0.8);
+$color-rojo2: rgb(243, 6,6);
+$color-verde: rgb(13,189,7);
+$letrablanca: rgb(240, 248, 255);
+
+

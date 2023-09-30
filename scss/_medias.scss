@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .flexReceta {
+        grid-template-areas: "recetaTitulo" "recetaAviso" "ingredientes" "preparacion" "flexReceta__img";
+
+    }
+    .flexReceta__img {
+        justify-content: center;
+        
+    }
+}

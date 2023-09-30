@@ -1,0 +1,11 @@
+@font-face {
+    font-family: RifficFreeBold;
+    src: url(../fonts/RifficFree-Bold.ttf);
+  }
+@mixin fuente {font-family: RifficFreeBold;
+    src: url(../fonts/RifficFree-Bold.ttf)}
+
+@font-face {font-family: mexicana; src: url(../fonts/Mexicana.ttf);}
+@font-face {
+  font-family: mexicanhollow;
+  src: url(../fonts/MexicanaHollow.ttf);}
